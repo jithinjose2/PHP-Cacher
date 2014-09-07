@@ -47,8 +47,12 @@ class PHPCacher {
      * Start
      * start caching
      */
-    public static function start(){
+    public static function start($section_name=""){
        
+        if($section_name != ""){
+            self::$request_id = $section_name;
+        }
+        
         if(!self::$cache){
             return;
         }
