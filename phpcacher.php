@@ -9,7 +9,7 @@ ini_set('display_errors',1);
  * when same request is repeated. This effectively reduce server downtimes and reduce
  * response time.
  *
- * @http://www.techzonemind.com/serverpulse-simple-way-to-monitor-web-server-from-chrome/
+ * @http://www.techzonemind.com/php-cacher-improve-performance-webpages/
  * @version 0.1.0
  * @package PHPCacher
  * @author Jithin Jose <jithinjose2@gmail.com> http://jithin.pw/
