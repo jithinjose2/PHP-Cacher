@@ -94,7 +94,7 @@ class PHPCacher {
                 self::$file = self::$file . "/" . implode('/',$path);
             }
             if(!file_exists(self::$file)){
-                mkdir(self::$file,0777,true);
+                mkdir(self::$file,0755,true);
             }
             self::$file = self::$file."/".$filename;
         } else {
